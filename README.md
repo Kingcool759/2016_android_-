@@ -1,3 +1,4 @@
+![image](https://github.com/syfan7561/Software-Engineering/blob/master/Project/image/logo.png)  
 2016级项目实训成果展示
 ==
 《易起游》 --智能设备--
