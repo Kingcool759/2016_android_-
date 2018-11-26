@@ -11,3 +11,4 @@
 界面展示
 ---
 ![image](https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/login.png)  
+![image](https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/register.png)  
