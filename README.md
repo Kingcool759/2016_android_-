@@ -10,4 +10,4 @@
 ==
 界面展示
 ---
-![image](https://github.com/syfan7561/Software-Engineering/blob/master/Project/image/logo.png)  
+![image](https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/login.png)  
