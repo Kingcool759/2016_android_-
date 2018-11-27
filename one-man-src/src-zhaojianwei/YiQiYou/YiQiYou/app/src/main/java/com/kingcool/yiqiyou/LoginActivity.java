@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //从登录界面activity跳转到主界面mainActivity
+                Toast.makeText(LoginActivity.this,"登录成功，正跳转至主界面",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(intent);
             }

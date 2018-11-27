@@ -8,5 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <!--去掉按钮的默认边框阴影-->
-    <style name="MyButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless"></style>
+    <style name="MyButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+    </style>
 </resources>
