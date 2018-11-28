@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Log.e("1234567","123456");
             return true;
         }
 
@@ -184,7 +185,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_my) {
-            // Handle the camera action
+            Log.e("123","321");
         } else if (id == R.id.nav_repertory) {
 
         } else if (id == R.id.nav_order) {
