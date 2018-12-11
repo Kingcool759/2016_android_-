@@ -1,5 +1,7 @@
 package com.kingcool.yiqiyou;
 
+import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.view.GravityCompat;
@@ -7,11 +9,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Layout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -19,14 +24,29 @@ import android.widget.TextView;
 import com.kingcool.yiqiyou.Fragments.ForumFragment;
 import com.kingcool.yiqiyou.Fragments.FriendsFragment;
 import com.kingcool.yiqiyou.Fragments.ShopFragment;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_myActivities;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_myComment;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_myInformation;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_myOrder;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_myRepertory;
+import com.kingcool.yiqiyou.siderbar_list.siderbar_set;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.NavigationView;
+import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -36,21 +56,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //软键盘顶起底部导航栏解决方法：
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
+
         setContentView(R.layout.activity_main);
 
-        //-----------------------------------
+
+
+        //----侧边栏siderbar-------------------------------
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -130,6 +145,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+
+
+
     private View getTabSpecView(String name, int imageId, String tag){
         LayoutInflater layoutInflater = getLayoutInflater();
         View view = layoutInflater.inflate(R.layout.tabspc_layout,null);
@@ -143,7 +161,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
-    //---------------------------------------------
+    //----------侧边栏-----------------------------------
     //返回键触发调用的方法
     @Override
     public void onBackPressed() {
@@ -171,7 +189,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Log.e("1234567","123456");
             return true;
         }
 
@@ -185,21 +202,30 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_my) {
-            Log.e("123","321");
+
+            Intent intent = new Intent(MainActivity.this,siderbar_myInformation.class);
+            startActivity(intent);
         } else if (id == R.id.nav_repertory) {
-
+            Intent intent = new Intent(MainActivity.this,siderbar_myRepertory.class);
+            startActivity(intent);
         } else if (id == R.id.nav_order) {
-
+            Intent intent = new Intent(MainActivity.this,siderbar_myOrder.class);
+            startActivity(intent);
         } else if (id == R.id.nav_comment) {
-
+            Intent intent = new Intent(MainActivity.this,siderbar_myComment.class);
+            startActivity(intent);
         } else if (id == R.id.nav_activities) {
-
+            Intent intent = new Intent(MainActivity.this,siderbar_myActivities.class);
+            startActivity(intent);
         } else if (id == R.id.nav_set) {
-
+            Intent intent = new Intent(MainActivity.this,siderbar_set.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }

@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="55dp">
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="查找" />
-    </LinearLayout>
+    android:layout_marginTop="55dp">
+
     <ListView
         android:id="@+id/lv_friends_fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ListView>
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:background="#CCEDCC"
+        android:layout_marginBottom="65dp"
+        />
+
+</RelativeLayout>

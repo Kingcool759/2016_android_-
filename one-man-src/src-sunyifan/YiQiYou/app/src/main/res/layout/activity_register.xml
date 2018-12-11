@@ -34,6 +34,7 @@
                     android:layout_height="40dp"
                     android:src="@drawable/user"/>
                 <EditText
+                    android:id="@+id/et_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="用户名"
@@ -51,6 +52,7 @@
                     android:layout_height="40dp"
                     android:src="@drawable/password"/>
                 <EditText
+                    android:id="@+id/et_userpwd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="密码"
@@ -68,6 +70,7 @@
                     android:layout_height="40dp"
                     android:src="@drawable/phone"/>
                 <EditText
+                    android:id="@+id/et_userphone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="手机号"
@@ -83,7 +86,7 @@
                 android:layout_margin="15dp"
                 android:checked="true" />
             <Button
-                android:id="@+id/btn_goginglogin"
+                android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
