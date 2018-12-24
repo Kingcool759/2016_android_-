@@ -11,5 +11,18 @@
 界面展示：  
 1、用户登录界面：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/login.png" width="378" alt="登录页面">  
-2、新用户注册界面  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/register.png" width="378" alt="注册页面">  
+2、新用户注册界面：  
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/register.png" width="378" alt="注册页面">
+3、找回密码界面：
+
+4、用户主界面
+
+5、资讯界面：
+
+6、好友界面：
+
+7、商城界面：
+
+8、论坛界面：
+
+
