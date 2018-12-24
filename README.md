@@ -10,15 +10,16 @@
 
 界面展示：  
 1、用户登录和注册界面：  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/登录.png" width="378" alt="登录页面">    
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/注册.png" width="378" alt="注册页面">
-2、找回密码、重置密码界面：
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/登录.png" width="378" alt="登录页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/注册.png" width="378" alt="注册页面">  
+2、找回密码、重置密码界面：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/找回密码.png" width="378" alt="找回密码页面">
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/重置密码.png" width="378" alt="重置密码页面">
-3、用户主界面（资讯、好友、商城、论坛）
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/重置密码.png" width="378" alt="重置密码页面">  
+3、用户主界面（资讯、好友、商城、论坛）:  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯.png" width="378" alt="资讯页面">
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/论坛.png" width="378" alt="论坛页面">
-4、滑出侧边栏：
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/侧边栏.png" width="378" alt="侧边栏页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/论坛.png" width="378" alt="论坛页面">  
+4、滑出侧边栏：  
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/侧边栏.png" width="378" alt="侧边栏页面">  
+
 
 
