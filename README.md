@@ -21,7 +21,7 @@
 4、滑出侧边栏：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/侧边栏.png" width="378" alt="侧边栏页面">  
 5、资讯详情页：  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情1.png" width="378" alt="咨讯详情1页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/%E5%92%A8%E8%AE%AF%E8%AF%A6%E6%83%851.png" width="378" alt="咨讯详情1页面">
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情2.png" width="378" alt="咨讯详情2页面">  
 6、资讯搜索页：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/搜索资讯.png" width="378" alt="搜索资讯页面">
