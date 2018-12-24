@@ -9,20 +9,16 @@
 是一个综合性游戏平台。用户可以在该平台购买、下载、讨论、上传和分享游戏和软件。
 
 界面展示：  
-1、用户登录界面：  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/login.png" width="378" alt="登录页面">  
-2、新用户注册界面：  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/register.png" width="378" alt="注册页面">
-3、找回密码界面：
-
-4、用户主界面
-
-5、资讯界面：
-
-6、好友界面：
-
-7、商城界面：
-
-8、论坛界面：
+1、用户登录和注册界面：  
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/登录.png" width="378" alt="登录页面">    
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/注册.png" width="378" alt="注册页面">
+3、找回密码、重置密码界面：
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/找回密码.png" width="378" alt="找回密码页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/重置密码.png" width="378" alt="重置密码页面">
+4、用户主界面（资讯、好友、商城、论坛）
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯.png" width="378" alt="资讯页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/论坛.png" width="378" alt="论坛页面">
+5、滑出侧边栏：
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/侧边栏.png" width="378" alt="侧边栏页面">
 
 
