@@ -21,10 +21,10 @@
 4、滑出侧边栏：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/侧边栏.png" width="378" alt="侧边栏页面">  
 5、资讯详情页：  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情一.png" width="378" alt="咨讯详情一页面">
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情二.png" width="378" alt="咨讯详情二页面">  
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情1.png" width="378" alt="咨讯详情（1）页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯详情2.png" width="378" alt="咨讯详情（2）页面">  
 6、资讯搜索页：  
 <img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/搜索资讯.png" width="378" alt="搜索资讯页面">  
 7、资讯搜索-数据库-模糊匹配:  
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯搜索一.png" width="378" alt="资讯搜索页面">
-<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯搜索二.png" width="378" alt="资讯搜索2页面">  
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯搜索1.png" width="378" alt="资讯搜索（1）页面">
+<img src="https://github.com/Kingcool759/2016_android_YiQiYou/blob/master/Project/imgs/资讯搜索2.png" width="378" alt="资讯搜索（2）页面">  
