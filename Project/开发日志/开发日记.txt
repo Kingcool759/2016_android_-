@@ -1,0 +1,36 @@
+1、EditText 换行问题解决
+android:singleLine="true"
+
+2、圆角登录按钮
+https://blog.csdn.net/lwcumt/article/details/47002067
+
+3、去掉按钮的默认边框阴影
+<style name="MyButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless"></style>
+style="?android:attr/borderlessButtonStyle"
+
+4、控件放在父容器的底部（上级必须是RelativeLayout）
+android:layout_alignParentBottom="true"
+
+5、listview控件覆盖掉底部导航栏的解决方法：
+在fragment_layout的listview中加入底部导航栏高度
+android:layout_marginBottom="65dp"
+
+6、Editview输入框点击输入后键盘顶起底部导航栏解决
+
+7、app_bar设置颜色与底部导航栏变色颜色相近，趋于美观
+
+8、状态栏（电量、信号、时间等）颜色设置和用户自定义的app_bar颜色相同，半透明
+
+9、json-lib依赖包：
+https://www.cnblogs.com/xiandedanteng/p/7421295.html
+
+10、客户端发出的json格式数据怎么在服务器端接收数据并解析
+inputStrenm in=request.getInputStream;
+
+
+BufferedReader br=new BufferedReader(new InputStreamReader(in));
+
+String str=br.readerLine();//这时接收的便是josn格式的字符串
+
+JSONObeject?? ob=JSONObeject? .fromeObject(str);
+//将json字符串转换为对象，然后可以通过key来取值了。
